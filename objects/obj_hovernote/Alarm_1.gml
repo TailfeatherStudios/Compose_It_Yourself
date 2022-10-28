@@ -4,6 +4,11 @@ if pause == 0
 {
 	pause = 1
 	time_source_pause(timer)
+	with obj_note_player
+	{
+		audio_stop_sound(playing_note)
+		instance_destroy()
+	}
 }
 else
 {

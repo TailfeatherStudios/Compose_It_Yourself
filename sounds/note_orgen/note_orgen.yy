@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "note_piano",
+  "name": "note_orgen",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "note_piano.wav",
-  "duration": 1.509292,
+  "soundFile": "note_orgen.wav",
+  "duration": 2.001271,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

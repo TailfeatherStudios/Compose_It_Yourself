@@ -14,4 +14,9 @@
 		index = 0
 		playing = 0
 		pause = 1
+		with obj_note_player
+		{
+			audio_stop_sound(playing_note)
+			instance_destroy()
+		}
 	}
