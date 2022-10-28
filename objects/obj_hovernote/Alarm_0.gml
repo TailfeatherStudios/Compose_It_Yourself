@@ -4,7 +4,7 @@
 	{
 		global.phrase_playing = global.phrase
 		pause = 0
-		create_time_source()
+		recreate_time_source()
 		index = 0
 		playing = 1
 	}

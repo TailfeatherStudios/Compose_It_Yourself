@@ -29,9 +29,12 @@ for (var i = 0; i < 200; i++)
 	global.instr[i] = 0
 }
 
-for (var j = 0; j < 32; j++)
+for (var i = 0; i < 32; i++)
 {
-	global.clipboard[i] = 0
+	for (var j = 0; j < 8; j++)
+	{
+		global.clipboard[i][j] = 0
+	}
 }
 
 global.tool = 0

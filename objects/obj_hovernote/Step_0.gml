@@ -187,7 +187,7 @@ if playing == 1 and index == 32
 		if global.tempo[oldphrase] != global.tempo[global.phrase_playing]
 		{
 			time_source_destroy(timer)
-			create_time_source()
+			recreate_time_source()
 		}
 	}
 	index = 0

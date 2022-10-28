@@ -1,0 +1,12 @@
+*** How to use this tool ***
+
+The buttons should be mostly self-explanatory, but in case you need more help on how to use the Compose It Yourself! editor, here's a short explanation:
+
+Using the mouse and keyboard, you can place notes down to
+create music using this tool. Music is composed five tracks, with one being a rhythm track. Each song is divided into multiple phrases, which are two-measure sections of music.
+
+
+*** FAQ ***
+
+Q. Why isn't  my song saving?
+A. There are a couple of reasons as to why. Most likely is that the location you're attempting to save can't be written to, such as the Program Files folder. Try another location instead, or run the program with an elevated permission level.

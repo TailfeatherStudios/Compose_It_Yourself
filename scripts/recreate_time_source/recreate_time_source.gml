@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function create_time_source(){
+function recreate_time_source(){
 		secs = time_bpm_to_seconds(global.tempo[global.phrase_playing])
 		secs /= 4
 		timer = time_source_create(time_source_game,secs,time_source_units_seconds,function()

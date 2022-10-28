@@ -29,6 +29,7 @@
     {"id":{"name":"save_file","path":"scripts/save_file/save_file.yy",},"order":3,},
     {"id":{"name":"spr_phrase1","path":"sprites/spr_phrase1/spr_phrase1.yy",},"order":12,},
     {"id":{"name":"rm_minestrone_title","path":"rooms/rm_minestrone_title/rm_minestrone_title.yy",},"order":0,},
+    {"id":{"name":"obj_copybutton","path":"objects/obj_copybutton/obj_copybutton.yy",},"order":16,},
     {"id":{"name":"spr_tempo","path":"sprites/spr_tempo/spr_tempo.yy",},"order":15,},
     {"id":{"name":"fon_main","path":"fonts/fon_main/fon_main.yy",},"order":0,},
     {"id":{"name":"sfx_play","path":"sounds/sfx_play/sfx_play.yy",},"order":4,},
@@ -42,11 +43,14 @@
     {"id":{"name":"spr_titleletters","path":"sprites/spr_titleletters/spr_titleletters.yy",},"order":2,},
     {"id":{"name":"obj_titlespawner","path":"objects/obj_titlespawner/obj_titlespawner.yy",},"order":1,},
     {"id":{"name":"obj_trackbutton","path":"objects/obj_trackbutton/obj_trackbutton.yy",},"order":13,},
+    {"id":{"name":"obj_pastebutton","path":"objects/obj_pastebutton/obj_pastebutton.yy",},"order":17,},
     {"id":{"name":"step_play","path":"scripts/step_play/step_play.yy",},"order":1,},
     {"id":{"name":"sfx_pause","path":"sounds/sfx_pause/sfx_pause.yy",},"order":5,},
     {"id":{"name":"spr_phrase2","path":"sprites/spr_phrase2/spr_phrase2.yy",},"order":13,},
+    {"id":{"name":"spr_paste_phrase","path":"sprites/spr_paste_phrase/spr_paste_phrase.yy",},"order":18,},
     {"id":{"name":"obj_titlebutton2","path":"objects/obj_titlebutton2/obj_titlebutton2.yy",},"order":3,},
     {"id":{"name":"spr_musicnote","path":"sprites/spr_musicnote/spr_musicnote.yy",},"order":4,},
+    {"id":{"name":"spr_copy_phrase","path":"sprites/spr_copy_phrase/spr_copy_phrase.yy",},"order":17,},
     {"id":{"name":"spr_titlebutton","path":"sprites/spr_titlebutton/spr_titlebutton.yy",},"order":3,},
     {"id":{"name":"obj_savebutton","path":"objects/obj_savebutton/obj_savebutton.yy",},"order":15,},
     {"id":{"name":"sfx_loopon","path":"sounds/sfx_loopon/sfx_loopon.yy",},"order":2,},
@@ -57,7 +61,8 @@
     {"id":{"name":"load_file","path":"scripts/load_file/load_file.yy",},"order":4,},
     {"id":{"name":"note_piano","path":"sounds/note_piano/note_piano.yy",},"order":11,},
     {"id":{"name":"sfx_loopoff","path":"sounds/sfx_loopoff/sfx_loopoff.yy",},"order":3,},
-    {"id":{"name":"create_time_source","path":"scripts/create_time_source/create_time_source.yy",},"order":5,},
+    {"id":{"name":"recreate_time_source","path":"scripts/recreate_time_source/recreate_time_source.yy",},"order":5,},
+    {"id":{"name":"execute_shell_simple_ext","path":"extensions/execute_shell_simple_ext/execute_shell_simple_ext.yy",},"order":0,},
     {"id":{"name":"rm_minestrone","path":"rooms/rm_minestrone/rm_minestrone.yy",},"order":1,},
   ],
   "Options": [
@@ -103,7 +108,9 @@
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"help.txt","CopyToMask":3035426170322551022,"filePath":"datafiles",},
+  ],
   "MetaData": {
     "IDEVersion": "2022.9.1.51",
   },

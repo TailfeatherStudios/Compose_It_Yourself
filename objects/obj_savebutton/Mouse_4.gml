@@ -10,4 +10,16 @@ if filename != ""
 {
 	save_file(filename)
 }
+if file_exists(filename)
+{
+	show_message("File saved!")
+}
+else
+{
+	if filename != ""
+	{
+		filename = ""
+		show_message("Unable to save the file. See help (F1) for details as to why.")
+	}
+}
 alarm[0] = 10
