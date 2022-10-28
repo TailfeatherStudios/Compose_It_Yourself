@@ -24,5 +24,7 @@ function save_file(filename){
 	ini_write_string("Other","Instruments",temp)
 	temp = json_stringify(global.instr)
 	ini_write_string("Other","RhythmSets",temp)
+	temp = json_stringify(global.phrase_length)
+	ini_write_string("Other","Langths",temp)
 	ini_close()
 }

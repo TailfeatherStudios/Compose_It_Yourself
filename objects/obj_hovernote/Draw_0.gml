@@ -4,10 +4,6 @@ if global.phrase_playing == global.phrase
 {
 	draw_set_colour(c_red)
 	draw_rectangle((index+1)*12+offset,0,(index+2)*12+offset,280,false)
-	if index == 0 and offset == -192 and playing == 1
-	{
-		draw_rectangle((index+1)*12+192,0,(index+2)*12+192,280,false)
-	}
 }
 switch mode
 {
@@ -55,3 +51,6 @@ switch mode
 	}
 	break
 }
+
+draw_set_colour(c_black)
+draw_rectangle((global.phrase_length[global.phrase]*12)+25+offset,0,400,240,false)

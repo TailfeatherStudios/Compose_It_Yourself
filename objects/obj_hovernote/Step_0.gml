@@ -178,7 +178,7 @@ if transition < 0
 	offset += 16
 }
 
-if playing == 1 and index == 32
+if playing == 1 and index == global.phrase_length[global.phrase_playing]
 {
 	if global.loopall == 1
 	{

@@ -27,11 +27,12 @@ for (var i = 0; i < 200; i++)
 	    global.inst[i][j] = note_piano
 	}
 	global.instr[i] = 0
+	global.phrase_length[i] = 32
 }
 
 for (var i = 0; i < 32; i++)
 {
-	for (var j = 0; j < 8; j++)
+	for (var j = 0; j < 9; j++)
 	{
 		global.clipboard[i][j] = 0
 	}

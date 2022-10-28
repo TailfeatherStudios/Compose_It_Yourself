@@ -6,5 +6,5 @@ if file_exists("help.txt")
 }
 else
 {
-	show_message("Help file not found.")
+	show_message("Help file not found. Save yourself.")
 }

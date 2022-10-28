@@ -29,5 +29,7 @@ function load_file(filename){
 	global.inst = json_parse(temp)
 	temp = ini_read_string("Other","RhythmSets","")
 	global.instr = json_parse(temp)
+	temp = ini_read_string("Other","Langths","")
+	global.phrase_length = json_parse(temp)
 	ini_close()
 }
