@@ -4,7 +4,7 @@ if mouse_y > 26 and mouse_x > 26 and mouse_y < 176 and mouse_x < 216
 {
 	x = (round((mouse_x-6)/12)*12)+3
 	y = (round((mouse_y-5)/6)*6)+3
-	if mouse_check_button_pressed(mb_left)
+	if mouse_check_button_pressed(mb_left) and global.clickable == 1
 	{
 		if offset == 0
 		{
@@ -14,22 +14,22 @@ if mouse_y > 26 and mouse_x > 26 and mouse_y < 176 and mouse_x < 216
 			{
 				case 0:
 				global.music1e[global.phrase][i][0] = j
-				note_play(j,global.inst[0][0])
+				note_play(j,global.inst[0][0],0)
 				break
 			
 				case 1:
 				global.music2e[global.phrase][i][0] = j
-				note_play(j,global.inst[0][1])
+				note_play(j,global.inst[0][1],1)
 				break
 			
 				case 2:
 				global.music3e[global.phrase][i][0] = j
-				note_play(j,global.inst[0][2])
+				note_play(j,global.inst[0][2],2)
 				break		
 			
 				case 3:
 				global.music4e[global.phrase][i][0] = j
-				note_play(j,global.inst[0][3])
+				note_play(j,global.inst[0][3],3)
 				break
 			}
 		}
@@ -41,22 +41,22 @@ if mouse_y > 26 and mouse_x > 26 and mouse_y < 176 and mouse_x < 216
 			{
 				case 0:
 				global.music1e[global.phrase][i+16][0] = j
-				note_play(j,global.inst[0][0])
+				note_play(j,global.inst[0][0],0)
 				break
 			
 				case 1:
 				global.music2e[global.phrase][i+16][0] = j
-				note_play(j,global.inst[0][1])
+				note_play(j,global.inst[0][1],1)
 				break
 			
 				case 2:
 				global.music3e[global.phrase][i+16][0] = j
-				note_play(j,global.inst[0][2])
+				note_play(j,global.inst[0][2],2)
 				break		
 			
 				case 3:
 				global.music4e[global.phrase][i+16][0] = j
-				note_play(j,global.inst[0][3])
+				note_play(j,global.inst[0][3],3)
 				break
 			}			
 		}
@@ -138,7 +138,7 @@ if mouse_y > 26 and mouse_x > 26 and mouse_y < 176 and mouse_x < 216
 
 
 
-if keyboard_check_pressed(vk_up)
+if keyboard_check_pressed(vk_up) and global.clickable == 1
 {
 	if mode > 0
 	{
@@ -146,7 +146,7 @@ if keyboard_check_pressed(vk_up)
 	}
 }
 
-if keyboard_check_pressed(vk_down)
+if keyboard_check_pressed(vk_down) and global.clickable == 1
 {
 	if mode < 3
 	{

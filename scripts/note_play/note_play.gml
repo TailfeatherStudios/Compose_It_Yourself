@@ -1,9 +1,18 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function note_play(note,sound){
+function note_play(note,sound,trac){
+	with obj_note_player
+	{
+		if my_track == trac
+		{
+			alarm[1] = 1
+		}
+	}
+	sound = instrument_lut(sound)
 	obj = instance_create_depth(0,0,0,obj_note_player)
 	obj.playing_note = audio_play_sound(sound,0,0)
 	obj.kill_note = obj_hovernote.index + 8
+	obj.my_track = trac
 	switch note
 	{
 		// octave 0

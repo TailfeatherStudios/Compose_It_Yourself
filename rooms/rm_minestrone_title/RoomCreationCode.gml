@@ -24,7 +24,7 @@ for (var i = 0; i < 200; i++)
 	global.tempo[i] = 120
     for (var j = 0; j < 4; j++)
 	{
-	    global.inst[i][j] = note_piano
+	    global.inst[i][j] = 0
 	}
 	global.instr[i] = 0
 	global.phrase_length[i] = 32
@@ -43,3 +43,4 @@ global.phrase = 0
 global.phrase_playing = 0
 global.solo = 1
 global.loopall = 0
+global.clickable = 1

@@ -2,14 +2,14 @@
 // You can write your code in this editor
 if mouse_x > 220 and mouse_y > 160
 {
-	if mouse_wheel_up()
+	if mouse_wheel_up() and global.clickable == 1
 	{
 		if range > 0
 		{
 			range -= 1
 		}
 	}
-	if mouse_wheel_down()
+	if mouse_wheel_down() and global.clickable == 1
 	{
 		if range < 193
 		{
@@ -17,7 +17,7 @@ if mouse_x > 220 and mouse_y > 160
 		}
 	}
 	
-	if mouse_check_button_pressed(mb_left)
+	if mouse_check_button_pressed(mb_left) and global.clickable == 1
 	{
 		audio_play_sound(sfx_click,0,0)
 		if mouse_y < 170

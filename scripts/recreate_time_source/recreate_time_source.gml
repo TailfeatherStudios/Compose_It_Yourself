@@ -7,11 +7,11 @@ function recreate_time_source(){
 		{
 			if global.solo == 0
 			{
-				step_play(global.inst[global.phrase][0],global.inst[global.phrase][1],global.inst[global.phrase][2],global.inst[global.phrase][3],0)
+				step_play(global.inst[global.phrase_playing][0],global.inst[global.phrase_playing][1],global.inst[global.phrase_playing][2],global.inst[global.phrase_playing][3],0)
 			}
 			else
 			{
-				step_play_mono(global.inst[global.phrase][mode])
+				step_play_mono(global.inst[global.phrase_playing][mode])
 			}
 		},[],-1)
 		time_source_start(timer)
