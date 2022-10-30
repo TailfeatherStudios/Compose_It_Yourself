@@ -8,7 +8,7 @@ function instrument_name_lut(sound){
 		break
 		
 		case 1:
-		return "Orgen"
+		return "Organ"
 		break
 		
 		case 2:

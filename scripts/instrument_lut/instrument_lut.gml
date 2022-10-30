@@ -31,6 +31,38 @@ function instrument_lut(sound){
 		return note_panflute
 		break
 		
+		case 9:
+		return note_aguitar
+		break
+		
+		case 10:
+		return note_eguitar
+		break
+		
+		case 11:
+		return note_banjo
+		break
+		
+		case 12:
+		return note_bguitar
+		break
+		
+		case 13:
+		return note_violin
+		break
+		
+		case 14:
+		return note_marimba
+		break
+		
+		case 15:
+		return note_vibes
+		break
+
+		case 16:
+		return note_timpani
+		break
+		
 		default:
 		return note_piano
 		break
