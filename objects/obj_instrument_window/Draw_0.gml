@@ -14,7 +14,7 @@ if finished_drawing == 1
 	draw_set_colour(c_black)
 	draw_set_halign(fa_center)
 	draw_set_font(fon_main)
-	draw_text(200,36,"Instrument selection - Piano")
+	draw_text(200,36,"Instrument selection - " + insname)
 	
 	draw_set_colour(c_red)
 	draw_rectangle(selx+92,sely+48,selx+92+24,sely+48+24,false)
@@ -30,4 +30,8 @@ if finished_drawing == 1
 	}
 	draw_sprite(spr_backbutton,0,92,194)
 	draw_sprite(spr_okbutton,0,272,194)
+	if selmod == 8
+	{
+		draw_sprite(spr_importbutton,0,200,194)
+	}
 }

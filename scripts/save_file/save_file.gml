@@ -1,7 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function save_file(filename){
-	ini_open(filename)
+	tempname = string(irandom_range(100000,10000000000))
+	ini_open(tempname + ".ciy")
 	temp = json_stringify(global.music1e)
 	ini_write_string("Music","Track1",temp)
 	temp = json_stringify(global.music2e)
@@ -27,4 +28,11 @@ function save_file(filename){
 	temp = json_stringify(global.phrase_length)
 	ini_write_string("Other","Langths",temp)
 	ini_close()
+	
+	zip = zip_create()
+	zip_add_file(zip,"data.ciy",tempname + ".ciy")
+	zip_save(zip,filename)
+	zip_destroy(zip)
+	
+	file_delete(tempname + ".ciy")
 }

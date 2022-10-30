@@ -21,6 +21,8 @@ if mouse_x > 92 and mouse_y > 48
 			sely -= 1
 			sely *= 9
 			selection += sely
+			selmod = selection mod 9
+			insname = instrument_name_lut(selection)
 			audio_play_sound(sfx_click,0,0)
 			if obj_hovernote.pause == 1
 			{

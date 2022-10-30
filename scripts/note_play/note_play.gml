@@ -11,7 +11,14 @@ function note_play(note,sound,trac){
 	sound = instrument_lut(sound)
 	obj = instance_create_depth(0,0,0,obj_note_player)
 	obj.playing_note = audio_play_sound(sound,0,0)
-	obj.kill_note = obj_hovernote.index + 8
+	if sound == note_trumpet
+	{
+		obj.kill_note = obj_hovernote.index + 2
+	}
+	else
+	{
+		obj.kill_note = obj_hovernote.index + 8
+	}
 	obj.my_track = trac
 	switch note
 	{
