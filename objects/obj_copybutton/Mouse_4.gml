@@ -12,5 +12,9 @@ if global.clickable == 1
 		global.clipboard[i][3] = global.music4e[global.phrase][i][0]
 	}
 	global.clipboard[0][9] = global.phrase_length[global.phrase]
+	global.clipboard[0][10] = global.inst[global.phrase][0]
+	global.clipboard[0][11] = global.inst[global.phrase][1]
+	global.clipboard[0][12] = global.inst[global.phrase][2]
+	global.clipboard[0][13] = global.inst[global.phrase][3]
 	alarm[0] = 10
 }

@@ -14,22 +14,22 @@ if mouse_y > 26 and mouse_x > 26 and mouse_y < 176 and mouse_x < 216
 			{
 				case 0:
 				global.music1e[global.phrase][i][0] = j
-				note_play(j,global.inst[0][0],0)
+				note_play(j,global.inst[global.phrase][0],0)
 				break
 			
 				case 1:
 				global.music2e[global.phrase][i][0] = j
-				note_play(j,global.inst[0][1],1)
+				note_play(j,global.inst[global.phrase][1],1)
 				break
 			
 				case 2:
 				global.music3e[global.phrase][i][0] = j
-				note_play(j,global.inst[0][2],2)
+				note_play(j,global.inst[global.phrase][2],2)
 				break		
 			
 				case 3:
 				global.music4e[global.phrase][i][0] = j
-				note_play(j,global.inst[0][3],3)
+				note_play(j,global.inst[global.phrase][3],3)
 				break
 			}
 		}
@@ -41,22 +41,22 @@ if mouse_y > 26 and mouse_x > 26 and mouse_y < 176 and mouse_x < 216
 			{
 				case 0:
 				global.music1e[global.phrase][i+16][0] = j
-				note_play(j,global.inst[0][0],0)
+				note_play(j,global.inst[global.phrase][0],0)
 				break
 			
 				case 1:
 				global.music2e[global.phrase][i+16][0] = j
-				note_play(j,global.inst[0][1],1)
+				note_play(j,global.inst[global.phrase][1],1)
 				break
 			
 				case 2:
 				global.music3e[global.phrase][i+16][0] = j
-				note_play(j,global.inst[0][2],2)
+				note_play(j,global.inst[global.phrase][2],2)
 				break		
 			
 				case 3:
 				global.music4e[global.phrase][i+16][0] = j
-				note_play(j,global.inst[0][3],3)
+				note_play(j,global.inst[global.phrase][3],3)
 				break
 			}			
 		}
