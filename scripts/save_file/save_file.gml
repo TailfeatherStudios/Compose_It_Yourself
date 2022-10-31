@@ -27,6 +27,8 @@ function save_file(filename){
 	ini_write_string("Other","RhythmSets",temp)
 	temp = json_stringify(global.phrase_length)
 	ini_write_string("Other","Langths",temp)
+	temp = json_stringify(global.swing)
+	ini_write_string("Other","Swing",temp)
 	ini_close()
 	
 	zip = zip_create()

@@ -41,6 +41,8 @@ function load_file(filename){
 		global.instr = json_parse(temp)
 		temp = ini_read_string("Other","Langths","")
 		global.phrase_length = json_parse(temp)
+		temp = ini_read_string("Other","Swing","")
+		global.swing = json_parse(temp)
 		ini_close()
 		file_delete("data.ciy")
 		

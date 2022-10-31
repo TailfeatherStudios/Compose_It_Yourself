@@ -1,6 +1,6 @@
 //global.music1e[PHRASE][NOTE][PITCH/VOL/BAL]
 
-for (var i = 0; i < 200; i++)
+for (var i = 0; i < 10; i++)
 {
     for (var j = 0; j < 32; j++)
 	{

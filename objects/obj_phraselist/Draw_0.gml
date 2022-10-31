@@ -15,5 +15,11 @@ if global.phrase_playing >= range and global.phrase_playing < range + 7 and obj_
 	draw_rectangle(220,160+((global.phrase_playing-range)*10),396,170+((global.phrase_playing-range)*10),false)
 }
 draw_set_colour(c_black)
-draw_text(310,160,"Phrase " + string(range+1) + "\nPhrase " + string(range+2) + "\nPhrase " + string(range+3) + "\nPhrase " + string(range+4) + "\nPhrase " + string(range+5) + "\nPhrase " + string(range+6) + "\nPhrase " + string(range+7))
-draw_rectangle(394,(range/3.5)+160,396,(range/3.5)+180,false)
+if range+7 > array_length(global.music1e)
+{
+	draw_text(310,160,"Phrase " + string(range+1) + "\nPhrase " + string(range+2) + "\nPhrase " + string(range+3) + "\nPhrase " + string(range+4) + "\nPhrase " + string(range+5) + "\nPhrase " + string(range+6) + "\nCreate new phrase")
+}
+else
+{
+	draw_text(310,160,"Phrase " + string(range+1) + "\nPhrase " + string(range+2) + "\nPhrase " + string(range+3) + "\nPhrase " + string(range+4) + "\nPhrase " + string(range+5) + "\nPhrase " + string(range+6) + "\nPhrase " + string(range+7))
+}

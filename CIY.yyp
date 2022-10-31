@@ -66,6 +66,7 @@
     {"id":{"name":"note_timpani","path":"sounds/note_timpani/note_timpani.yy",},"order":27,},
     {"id":{"name":"spr_phrase2","path":"sprites/spr_phrase2/spr_phrase2.yy",},"order":13,},
     {"id":{"name":"spr_paste_phrase","path":"sprites/spr_paste_phrase/spr_paste_phrase.yy",},"order":18,},
+    {"id":{"name":"init_the_new_phrase","path":"scripts/init_the_new_phrase/init_the_new_phrase.yy",},"order":9,},
     {"id":{"name":"note_harp","path":"sounds/note_harp/note_harp.yy",},"order":14,},
     {"id":{"name":"obj_titlebutton2","path":"objects/obj_titlebutton2/obj_titlebutton2.yy",},"order":3,},
     {"id":{"name":"note_orgen","path":"sounds/note_orgen/note_orgen.yy",},"order":13,},
