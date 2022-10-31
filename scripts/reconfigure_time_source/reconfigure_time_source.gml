@@ -24,11 +24,7 @@ function reconfigure_time_source(){
 			{
 				step_play_mono(global.inst[global.phrase_playing][mode])
 			}
-			if global.swing[global.phrase_playing] == 1
-			{
-				time_source_destroy(timer)
-				recreate_time_source()
-			}
+			reconfigure_time_source()
 		},[],-1)
 		time_source_start(timer)
 }
