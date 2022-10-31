@@ -1,12 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function load_file(filename){
-	file_delete("custom0.ogg")
-	file_delete("custom1.ogg")
-	file_delete("custom2.ogg")
-	file_delete("custom3.ogg")
-	file_delete("custom4.ogg")
-	file_delete("custom5.ogg")
 	zip = zip_unzip(filename,working_directory)
 	if zip <= 0
 	{
@@ -14,7 +8,7 @@ function load_file(filename){
 		audio_stop_all()
 		game_restart()
 	}
-	if !file_exists(working_directory + "\data.ciy")
+	else if !file_exists(working_directory + "\data.ciy")
 	{
 		show_message("Invalid file!!!!")
 		audio_stop_all()

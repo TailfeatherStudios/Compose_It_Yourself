@@ -71,6 +71,22 @@ function instrument_lut(sound){
 		return global.note_custom[1]
 		break
 		
+		case 26:
+		return global.note_custom[2]
+		break
+		
+		case 35:
+		return global.note_custom[3]
+		break
+
+		case 44:
+		return global.note_custom[4]
+		break
+		
+		case 53:
+		return global.note_custom[5]
+		break
+		
 		default:
 		return note_piano
 		break

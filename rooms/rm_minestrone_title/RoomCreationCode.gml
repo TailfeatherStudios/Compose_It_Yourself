@@ -28,6 +28,7 @@ for (var i = 0; i < 200; i++)
 	}
 	global.instr[i] = 0
 	global.phrase_length[i] = 32
+	global.swing[i] = 0
 }
 
 for (var i = 0; i < 32; i++)
@@ -38,6 +39,13 @@ for (var i = 0; i < 32; i++)
 	}
 }
 
+file_delete("custom0.ogg")
+file_delete("custom1.ogg")
+file_delete("custom2.ogg")
+file_delete("custom3.ogg")
+file_delete("custom4.ogg")
+file_delete("custom5.ogg")
+	
 for (var i = 0; i < 6; i++)
 {
 	global.note_custom[i] = audio_create_stream("default.ogg")
