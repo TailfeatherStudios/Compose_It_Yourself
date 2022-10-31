@@ -5,4 +5,5 @@ selmod = selection mod 9
 finished_drawing = 0
 step = 80
 insname = instrument_name_lut(global.inst[global.phrase][obj_hovernote.mode])
+filename = ""
 global.loopall = false

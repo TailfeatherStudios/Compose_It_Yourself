@@ -31,6 +31,30 @@ function save_file(filename){
 	
 	zip = zip_create()
 	zip_add_file(zip,"data.ciy",tempname + ".ciy")
+	if file_exists(working_directory + "\custom0.ogg")
+	{
+		zip_add_file(zip,"custom0.ogg",working_directory + "\custom0.ogg")
+	}
+	if file_exists(working_directory + "\custom1.ogg")
+	{
+		zip_add_file(zip,"custom1.ogg",working_directory + "\custom1.ogg")
+	}
+	if file_exists(working_directory + "\custom2.ogg")
+	{
+		zip_add_file(zip,"custom2.ogg",working_directory + "\custom2.ogg")
+	}
+	if file_exists(working_directory + "\custom3.ogg")
+	{
+		zip_add_file(zip,"custom3.ogg",working_directory + "\custom3.ogg")
+	}
+	if file_exists(working_directory + "\custom4.ogg")
+	{
+		zip_add_file(zip,"custom4.ogg",working_directory + "\custom4.ogg")
+	}
+	if file_exists(working_directory + "\custom5.ogg")
+	{
+		zip_add_file(zip,"custom5.ogg",working_directory + "\custom5.ogg")
+	}
 	zip_save(zip,filename)
 	zip_destroy(zip)
 	

@@ -13,7 +13,7 @@ function note_play(note,sound,trac){
 	obj.playing_note = audio_play_sound(sound,0,0)
 	if sound == note_trumpet
 	{
-		obj.kill_note = obj_hovernote.index + 2
+		obj.kill_note = obj_hovernote.index + 3
 	}
 	else
 	{

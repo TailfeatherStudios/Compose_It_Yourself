@@ -1,6 +1,12 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function load_file(filename){
+	file_delete("custom0.ogg")
+	file_delete("custom1.ogg")
+	file_delete("custom2.ogg")
+	file_delete("custom3.ogg")
+	file_delete("custom4.ogg")
+	file_delete("custom5.ogg")
 	zip = zip_unzip(filename,working_directory)
 	if zip <= 0
 	{
@@ -43,5 +49,30 @@ function load_file(filename){
 		global.phrase_length = json_parse(temp)
 		ini_close()
 		file_delete("data.ciy")
+		
+		if file_exists("custom0.ogg")
+		{
+			global.note_custom[0] = audio_create_stream("custom0.ogg")
+		}
+		if file_exists("custom1.ogg")
+		{
+			global.note_custom[1] = audio_create_stream("custom1.ogg")
+		}
+		if file_exists("custom2.ogg")
+		{
+			global.note_custom[2] = audio_create_stream("custom2.ogg")
+		}
+		if file_exists("custom3.ogg")
+		{
+			global.note_custom[3] = audio_create_stream("custom3.ogg")
+		}
+		if file_exists("custom4.ogg")
+		{
+			global.note_custom[4] = audio_create_stream("custom4.ogg")
+		}
+		if file_exists("custom5.ogg")
+		{
+			global.note_custom[5] = audio_create_stream("custom5.ogg")
+		}
 	}
 }

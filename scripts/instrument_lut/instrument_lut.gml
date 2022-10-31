@@ -31,6 +31,10 @@ function instrument_lut(sound){
 		return note_panflute
 		break
 		
+		case 8:
+		return global.note_custom[0]
+		break
+		
 		case 9:
 		return note_aguitar
 		break
@@ -61,6 +65,10 @@ function instrument_lut(sound){
 
 		case 16:
 		return note_timpani
+		break
+		
+		case 17:
+		return global.note_custom[1]
 		break
 		
 		default:

@@ -10,6 +10,3 @@ create music using this tool. Music is composed five tracks, with one being a rh
 
 Q. Why isn't my song saving?
 A. There are a couple of reasons as to why. Most likely is that the location you're attempting to save can't be written to, such as the Program Files folder. Try another location instead, or run the program with an elevated permission level.
-
-Q. Why isn't my song loading?
-A. You're running Compose it Yourself! from a folder that it does not have permission to write to.

@@ -38,6 +38,11 @@ for (var i = 0; i < 32; i++)
 	}
 }
 
+for (var i = 0; i < 6; i++)
+{
+	global.note_custom[i] = audio_create_stream("default.ogg")
+}
+
 global.tool = 0
 global.phrase = 0
 global.phrase_playing = 0

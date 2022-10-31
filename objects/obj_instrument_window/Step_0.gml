@@ -54,6 +54,53 @@ if mouse_x > 272 and mouse_y > 194 and mouse_x < 309 and mouse_y < 210
 	}
 }
 
+if mouse_x > 176 and mouse_y > 194 and mouse_x < 225 and mouse_y < 210
+{
+	if mouse_check_button_pressed(mb_left) and finished_drawing == 1
+	{
+		if selmod == 8
+		{
+			audio_play_sound(sfx_click,0,0)
+			filename = get_open_filename("OGG file|.ogg","*.ogg")
+			if filename != ""
+			{
+				switch selection
+				{
+					case 8:
+					file_copy(filename,working_directory + "\custom0.ogg")
+					global.note_custom[0] = audio_create_stream(working_directory + "\custom0.ogg")
+					break
+					
+					case 17:
+					file_copy(filename,working_directory + "\custom1.ogg")
+					global.note_custom[1] = audio_create_stream(working_directory + "\custom1.ogg")
+					break
+					
+					case 26:
+					file_copy(filename,working_directory + "\custom2.ogg")
+					global.note_custom[2] = audio_create_stream(working_directory + "\custom2.ogg")
+					break
+					
+					case 35:
+					file_copy(filename,working_directory + "\custom3.ogg")
+					global.note_custom[3] = audio_create_stream(working_directory + "\custom3.ogg")
+					break
+					
+					case 44:
+					file_copy(filename,working_directory + "\custom4.ogg")
+					global.note_custom[4] = audio_create_stream(working_directory + "\custom4.ogg")
+					break
+					
+					case 53:
+					file_copy(filename,working_directory + "\custom5.ogg")
+					global.note_custom[5] = audio_create_stream(working_directory + "\custom5.ogg")
+					break
+				}
+			}
+		}
+	}
+}
+
 selx = selection
 selx = selx mod 9
 selx *= 24
