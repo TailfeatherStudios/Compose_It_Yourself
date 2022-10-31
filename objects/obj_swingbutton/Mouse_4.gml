@@ -6,3 +6,4 @@ if global.swing[global.phrase] == 2
 	global.swing[global.phrase] = 0
 }
 audio_play_sound(sfx_swingon,0,0)
+obj_hovernote.alarm[2] = 1

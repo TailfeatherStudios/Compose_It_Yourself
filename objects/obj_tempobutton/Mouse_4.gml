@@ -8,6 +8,7 @@ if global.clickable == 1
 	if !is_undefined(tempo)
 	{
 		global.tempo[global.phrase] = tempo
+		obj_hovernote.alarm[2] = 1
 	}
 	alarm[0] = 10
 }
