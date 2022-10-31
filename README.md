@@ -15,3 +15,5 @@ Here's what I still have yet to do.
 - Frame tool
 - The rest of the instruments (currently 1/3 implemented)
 
+Want to learn more? Check out the WarioWare DIY Discord server!
+https://discord.gg/wZGgYHP9sf
