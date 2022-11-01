@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-x = 301
-y = 142
+x = 87
+y = 185
 tempo = 0

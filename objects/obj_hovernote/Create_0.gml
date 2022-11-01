@@ -13,3 +13,4 @@ startx = 0
 startx2 = 0
 endx = 0
 step_counter = 0
+note_move_by = 0

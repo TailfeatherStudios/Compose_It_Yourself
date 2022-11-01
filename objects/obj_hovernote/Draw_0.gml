@@ -35,7 +35,7 @@ switch mode
 			draw_sprite(spr_musicnote,0,(i*12)+27+offset,(global.music1e[global.phrase][i][0]*6)+21)
 			if global.music1e[global.phrase][i][0] == global.clipboard_frame[i][0]
 			{
-				draw_sprite_ext(spr_musicnote,5,(i*12)+27+offset,(global.music1e[global.phrase][i][0]*6)+21,1,1,0,-1,step_counter/10)
+				draw_sprite_ext(spr_musicnote,5,(i*12)+27+note_move_by,(global.music1e[global.phrase][i][0]*6)+21,1,1,0,-1,step_counter/10)
 			}
 		}
 	}
@@ -53,7 +53,7 @@ switch mode
 			draw_sprite(spr_musicnote,1,(i*12)+27+offset,(global.music2e[global.phrase][i][0]*6)+21)
 			if global.music2e[global.phrase][i][0] == global.clipboard_frame[i][1]
 			{
-				draw_sprite_ext(spr_musicnote,5,(i*12)+27+offset,(global.music2e[global.phrase][i][0]*6)+21,1,1,0,-1,step_counter/10)
+				draw_sprite_ext(spr_musicnote,5,(i*12)+27+note_move_by,(global.music2e[global.phrase][i][0]*6)+21,1,1,0,-1,step_counter/10)
 			}
 		}
 	}
@@ -71,7 +71,7 @@ switch mode
 			draw_sprite(spr_musicnote,2,(i*12)+27+offset,(global.music3e[global.phrase][i][0]*6)+21)
 			if global.music3e[global.phrase][i][0] == global.clipboard_frame[i][2]
 			{
-				draw_sprite_ext(spr_musicnote,5,(i*12)+27+offset,(global.music3e[global.phrase][i][0]*6)+21,1,1,0,-1,step_counter/10)
+				draw_sprite_ext(spr_musicnote,5,(i*12)+27+note_move_by,(global.music3e[global.phrase][i][0]*6)+21,1,1,0,-1,step_counter/10)
 			}
 		}
 	}
@@ -89,7 +89,7 @@ switch mode
 			draw_sprite(spr_musicnote,3,(i*12)+27+offset,(global.music4e[global.phrase][i][0]*6)+21)
 			if global.music4e[global.phrase][i][0] == global.clipboard_frame[i][3]
 			{
-				draw_sprite_ext(spr_musicnote,5,(i*12)+27+offset,(global.music4e[global.phrase][i][0]*6)+21,1,1,0,-1,step_counter/10)
+				draw_sprite_ext(spr_musicnote,5,(i*12)+27+note_move_by,(global.music4e[global.phrase][i][0]*6)+21,1,1,0,-1,step_counter/10)
 			}
 		}
 	}

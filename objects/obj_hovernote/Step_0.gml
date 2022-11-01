@@ -64,7 +64,23 @@ if mouse_y > 26 and mouse_x > 26 and mouse_y < 176 and mouse_x < 216
 			}
 		}
 	}
-	if mouse_check_button(mb_right)
+	if mouse_check_button(mb_left) and tool == 2 and global.clickable == 1
+	{
+		tool = 3
+		startx = mouse_x
+	}
+	if mouse_check_button(mb_left) and tool == 3
+	{
+		note_move_by = (mouse_x - startx)
+	}
+	else if tool == 3
+	{
+		note_move_by /= 12
+		note_move_by = round(note_move_by)
+		note_move_by *= 12
+		tool = 2
+	}
+	if mouse_check_button(mb_right) and global.clickable == 1
 	{
 		if offset == 0
 		{
@@ -76,6 +92,14 @@ if mouse_y > 26 and mouse_x > 26 and mouse_y < 176 and mouse_x < 216
 				if j == global.music1e[global.phrase][i][0]
 				{
 					global.music1e[global.phrase][i][0] = -1
+					if tool == 2
+					{
+						for (var ij = startx; ij < endx; ij++)
+						{
+							global.music1e[global.phrase][ij][0] = -1
+							tool = 0
+						}
+					}
 				}
 				break
 			
@@ -83,6 +107,14 @@ if mouse_y > 26 and mouse_x > 26 and mouse_y < 176 and mouse_x < 216
 				if j == global.music2e[global.phrase][i][0]
 				{
 					global.music2e[global.phrase][i][0] = -1
+					if tool == 2
+					{
+						for (var ij = startx; ij < endx; ij++)
+						{
+							global.music2e[global.phrase][ij][0] = -1
+							tool = 0
+						}
+					}
 				}
 				break
 			
@@ -90,6 +122,14 @@ if mouse_y > 26 and mouse_x > 26 and mouse_y < 176 and mouse_x < 216
 				if j == global.music3e[global.phrase][i][0]
 				{
 					global.music3e[global.phrase][i][0] = -1
+					if tool == 2
+					{
+						for (var ij = startx; ij < endx; ij++)
+						{
+							global.music3e[global.phrase][ij][0] = -1
+							tool = 0
+						}
+					}
 				}
 				break		
 			
@@ -97,6 +137,14 @@ if mouse_y > 26 and mouse_x > 26 and mouse_y < 176 and mouse_x < 216
 				if j == global.music4e[global.phrase][i][0]
 				{
 					global.music4e[global.phrase][i][0] = -1
+					if tool == 2
+					{
+						for (var ij = startx; ij < endx; ij++)
+						{
+							global.music4e[global.phrase][ij][0] = -1
+							tool = 0
+						}
+					}
 				}
 				break
 			}
