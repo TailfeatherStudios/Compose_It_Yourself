@@ -35,7 +35,8 @@ for (var i = 0; i < 32; i++)
 {
 	for (var j = 0; j < 20; j++)
 	{
-		global.clipboard[i][j] = 0
+		global.clipboard[i][j] = -1
+		global.clipboard_frame[i][j] = -1
 	}
 }
 
@@ -51,7 +52,6 @@ for (var i = 0; i < 6; i++)
 	global.note_custom[i] = audio_create_stream("default.ogg")
 }
 
-global.tool = 0
 global.phrase = 0
 global.phrase_playing = 0
 global.solo = 1

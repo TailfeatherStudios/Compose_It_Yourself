@@ -28,10 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ceb0ece2-0ab0-4d05-b709-29169683bae8",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b3afd158-a595-4674-948c-50986ee15c54",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a013fd55-4c9d-40dc-91f2-6edc952949f2",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"db8b0c2c-e3c8-4a1e-a8f0-cc2c9c1cc909",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"785d6a16-1fbc-4d1c-ba89-29b5e18e8c8b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c9a6ee6a-7be5-4392-85b6-15175e45e7ec",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"67b698c3-7494-4323-9a23-0b262c7d0f49",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"70049579-a98e-425d-bdb4-ca2e7a7d8d05",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1f263f6f-e939-47f3-8c32-12952ec32faf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"be37028d-0565-45f8-8cba-2daccbee966a",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -43,15 +45,17 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 4.0,
+    "length": 6.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"400d0107-3a2e-4e1c-ac5f-87821e625a4e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ceb0ece2-0ab0-4d05-b709-29169683bae8","path":"sprites/spr_musicnote/spr_musicnote.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"899555c7-9d87-4a7f-8d40-4d024af4fa88","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b3afd158-a595-4674-948c-50986ee15c54","path":"sprites/spr_musicnote/spr_musicnote.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"dd9f2b6a-ce38-4070-92ba-389f3709192e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a013fd55-4c9d-40dc-91f2-6edc952949f2","path":"sprites/spr_musicnote/spr_musicnote.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"cd545d2b-46da-4f40-8979-531bb076b2d2","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"db8b0c2c-e3c8-4a1e-a8f0-cc2c9c1cc909","path":"sprites/spr_musicnote/spr_musicnote.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"16685911-27d0-41ca-a5a1-63ef7df382d8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"785d6a16-1fbc-4d1c-ba89-29b5e18e8c8b","path":"sprites/spr_musicnote/spr_musicnote.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"82b09e30-e517-43fc-b3ec-85284316a3cc","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c9a6ee6a-7be5-4392-85b6-15175e45e7ec","path":"sprites/spr_musicnote/spr_musicnote.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9326e049-0625-463c-ac21-ffa1bed232e3","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"67b698c3-7494-4323-9a23-0b262c7d0f49","path":"sprites/spr_musicnote/spr_musicnote.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e9d2857f-56e1-4da5-bc4a-f5d5f2944716","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"70049579-a98e-425d-bdb4-ca2e7a7d8d05","path":"sprites/spr_musicnote/spr_musicnote.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"12ad2d5f-282a-4420-8f37-6b9e228ccceb","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1f263f6f-e939-47f3-8c32-12952ec32faf","path":"sprites/spr_musicnote/spr_musicnote.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f47b9ea1-2190-447b-b181-f702fe1f675a","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"be37028d-0565-45f8-8cba-2daccbee966a","path":"sprites/spr_musicnote/spr_musicnote.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -70,7 +74,7 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7d6c4c35-a9c2-4f44-a334-892594c255c1","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"257c0c52-78ae-457d-9795-1957603d77e1","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
