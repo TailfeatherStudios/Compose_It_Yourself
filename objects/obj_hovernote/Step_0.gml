@@ -276,8 +276,16 @@ if playing == 1 and index == global.phrase_length[global.phrase_playing]
 {
 	if global.loopall == 1
 	{
-		oldphrase = global.phrase_playing
-		global.phrase_playing += 1
+		if global.phrase_playing == array_length(global.music1e) - 1
+		{
+			oldphrase = global.phrase_playing
+			global.phrase_playing = 0
+		}
+		else
+		{
+			oldphrase = global.phrase_playing
+			global.phrase_playing += 1
+		}
 		if global.tempo[oldphrase] != global.tempo[global.phrase_playing]
 		{
 			time_source_destroy(timer)

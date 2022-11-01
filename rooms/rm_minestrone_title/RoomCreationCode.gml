@@ -5,17 +5,9 @@ for (var i = 0; i < 10; i++)
     for (var j = 0; j < 32; j++)
 	{
 	    global.music1e[i][j][0] = -1
-		global.music1e[i][j][1] = 3
-		global.music1e[i][j][2] = 0
 		global.music2e[i][j][0] = -1
-		global.music2e[i][j][1] = 3
-		global.music2e[i][j][2] = 0
 		global.music3e[i][j][0] = -1
-		global.music3e[i][j][1] = 3
-		global.music3e[i][j][2] = 0
 		global.music4e[i][j][0] = -1
-		global.music4e[i][j][1] = 3
-		global.music4e[i][j][2] = 0
 	    global.rhythm1[i][j] = -1
 		global.rhythm2[i][j] = -1
 		global.rhythm3[i][j] = -1
@@ -25,6 +17,8 @@ for (var i = 0; i < 10; i++)
     for (var j = 0; j < 4; j++)
 	{
 	    global.inst[i][j] = 0
+		global.phrase_volume[i][j] = 3
+		global.phrase_panning[i][j] = 2
 	}
 	global.instr[i] = 0
 	global.phrase_length[i] = 32
