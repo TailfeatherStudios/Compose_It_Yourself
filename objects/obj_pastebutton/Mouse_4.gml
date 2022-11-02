@@ -17,5 +17,6 @@ if global.clickable == 1
 	global.inst[global.phrase][2] = global.clipboard[0][12]
 	global.inst[global.phrase][3] = global.clipboard[0][13]
 	global.swing[global.phrase] = global.clipboard[0][14]
+	global.tempo[global.phrase] = global.clipboard[0][15]
 	alarm[0] = 10
 }
