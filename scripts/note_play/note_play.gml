@@ -20,6 +20,7 @@ function note_play(note,sound,trac){
 		obj.kill_note = obj_hovernote.index + 8
 	}
 	obj.my_track = trac
+	audio_sound_gain(obj.playing_note,global.phrase_volume[global.phrase_playing][trac]/4,0)
 	switch note
 	{
 		// octave 0
