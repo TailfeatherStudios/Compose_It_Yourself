@@ -17,3 +17,5 @@ Here's what I still have yet to do.
 
 Want to learn more? Check out the WarioWare DIY Discord server!
 https://discord.gg/wZGgYHP9sf
+
+This code is under the MIT license.
